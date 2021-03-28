@@ -36,3 +36,31 @@ header h1 {
     color: white;
     text-transform: uppercase;
 }
+
+header .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+header .dropdown svg {
+    fill: white;
+    width: 32px;
+    cursor: pointer;
+}
+
+header .dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #190e2a;
+    min-width: 130px;
+    left: -98px;
+    z-index: 2;
+}
+
+header .dropdown .dropdown-content a {
+    
+}
+
+header .dropdown:hover .dropdown-content {
+    display: block;
+}
