@@ -155,3 +155,35 @@ section {
     font-weight: 100;
     font-size: 18px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #190E2A;
+    padding: 0 100px;
+}
+
+footer .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+}
+
+footer .info .personal-info {
+    display: flex;
+    align-items: center;
+    font-family: 'gilroy';
+    color: white;
+}
+
+footer .info .personal-info img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+footer .info .personal-info h1 {
+    font-size: 18px;
+}
